@@ -11,10 +11,6 @@ Proyecto APi REST de brillantemente, aquí encontraras varios de los enpoints de
 - [Java] - Java
 
 ## Instalacion
-
-Clonar del repositorio
-```sh
-git clone https://github.com/cgrisales04/back-sprint.git
 ```
 
 Creacion de tablas
@@ -78,9 +74,9 @@ Body - Parametros
 ```sh
 {
     "nombre": "Oscar",
-    "apellido": "Mesa",
+    "apellido": "perez",
     "edad": "25",
-    "identificacion": "948573294",
+    "identificacion": "15444444",
     "fk_tipo_usuarios_id": 1,
     "fk_generos_id": 1,
     "fk_tipo_identificaciones_id": 1
@@ -102,10 +98,3 @@ DELETE - Eliminar usuarios
 http://localhost:8585/api/usuarios/1
 ```
 
-
-## Devs
-
-Cristian Grisales Venitez - 
-Yaider Cordoba Cordoba
-
-[Java]: <https://www.java.com/es/>
